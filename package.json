@@ -1,5 +1,5 @@
 {
-  "name": "level-food",
+  "name": "foodies",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "better-sqlite3": "^11.3.0",
-    "next": "14.2.12",
+    "@aws-sdk/client-s3": "^3.465.0",
+    "better-sqlite3": "^9.6.0",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "slugify": "^1.6.6",
+    "xss": "^1.0.15"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.12"
+    "eslint-config-next": "14.0.3"
   }
 }
