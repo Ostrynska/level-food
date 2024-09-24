@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)", 
-      "destination": "/error"
+      "source": "/meals/:slug",
+      "destination": "/meals/[slug]"
     }
   ]
 }
