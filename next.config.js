@@ -12,7 +12,7 @@ const nextConfig = {
   },
   experimental: {
     outputFileTracingIncludes: {
-       '/lib/meals.js': ['./meals.db'],
+       '/lib/meals.js': ['meals.db'],
     },
   },
 };
