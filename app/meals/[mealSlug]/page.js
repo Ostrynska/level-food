@@ -17,14 +17,18 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function MealDetailsPage({ params }) {
-  const meal = getMeal(params.mealSlug);
+export default async function MealDetailsPage({ params }) {
+  const meal = await getMeal(params.mealSlug);
 
   if (!meal) {
     notFound();
   }
 
-  meal.instructions = meal.instructions.replace(/\n/g, '<br />');
+  if (meal.instructions) {
+    meal.instructions = meal.instructions.replace(/\n/g, '<br />');
+  } else {
+    meal.instructions = 'Instructions not available.';
+  }
 
   return (
     <>
