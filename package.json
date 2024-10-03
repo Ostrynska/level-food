@@ -2,6 +2,7 @@
   "name": "foodies",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Ostrynska.github.io/level-food/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
