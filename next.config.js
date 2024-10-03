@@ -10,11 +10,6 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    outputFileTracingIncludes: {
-       '/lib/meals.js': ['meals.db'],
-    },
-  },
 };
 
 module.exports = nextConfig
