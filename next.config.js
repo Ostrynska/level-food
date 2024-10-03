@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/level-food',
+  assetPrefix: '/level-food/',
+  trailingSlash: true,
   images: {
     remotePatterns: [
       {
