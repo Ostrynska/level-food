@@ -1,8 +1,9 @@
 # 📎 LEVEL FOOD
 
-The app is built with Next.js. Level Food is a platform for foodies to share their favourite recipes. </br>
-It's a place to discover new dishes and connect with other food lovers. Level Food is a place to discover new dishes and to communicate with other food lovers.  </br>
+The app is built with Next.js. Level Food is a platform for foodies to share their favourite recipes. It is a place to discover new dishes and to communicate with other food lovers.  </br>
 A Next.js project developed as part of the "Next.js & React - The Complete Guide" course on Udemy.
+
+![Level Food App](https://res.cloudinary.com/dcjlswtup/image/upload/v1728377578/Screenshot_2024-10-08_at_11.52.39_jc5au9.png)
 
 ## Technologies & Dependencies
 | **Tool**            | **Description**                                  |
